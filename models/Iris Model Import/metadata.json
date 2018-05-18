@@ -1,0 +1,38 @@
+{
+    "id": 1526673006828,
+    "name": "Iris Model Import",
+    "latestModelVersion": 1,
+    "runtime": "pmml-3.0",
+    "author": "999",
+    "createdAt": 1526673006828,
+    "filename": "import",
+    "features": [
+        {
+            "name": "Petal.Width",
+            "type": "double"
+        },
+        {
+            "name": "Sepal.Width",
+            "type": "double"
+        },
+        {
+            "name": "Petal.Length",
+            "type": "double"
+        }
+    ],
+    "labelColumns": [
+        {
+            "name": "Species",
+            "type": "string"
+        }
+    ],
+    "type": "pmml-model-3.0",
+    "serialization": "pmml",
+    "learningType": "Supervised",
+    "algorithm": "TreeModel",
+    "algorithmType": "Classification",
+    "params": {},
+    "publishedBy": "",
+    "isPublished": false,
+    "publishedModelVersion": -1
+}
